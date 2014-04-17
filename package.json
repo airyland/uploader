@@ -1,0 +1,26 @@
+{
+    "family": "moe",
+    "name": "uploader",
+    "version": "0.0.1",
+    "description": "html5 uploader",
+    "homepage": "https://github.com/lizheng/uploader",
+    "author": "",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/lizheng/uploader.git"
+    },
+    "bugs": {
+        "url": ""
+    },
+    "maintainers": [
+        "李政 <i@mao.li>"
+    ],
+    "keywords": ["widget"],
+    "licenses": "MIT",
+    "spm": {
+        "output": ["uploader.js"],
+        "alias": {},
+        "devAlias": {},
+        "engines": {}
+    }
+}
