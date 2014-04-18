@@ -18,7 +18,7 @@
     "keywords": ["widget"],
     "licenses": "MIT",
     "spm": {
-        "output": ["uploader.js"],
+        "output": ["uploader.js", "pasteUploader.js"],
         "alias": {},
         "devAlias": {},
         "engines": {}
