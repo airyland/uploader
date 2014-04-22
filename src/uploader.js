@@ -105,6 +105,7 @@ define(function (require, exports, module) {
 
     Upload.prototype.onload = function (e) {
         this.trigger('end', this.req);
+        this.trigger('complete',JSON.parse(this.req.responseText));
         return this;
     };
 

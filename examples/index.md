@@ -22,6 +22,8 @@ $('#start').click(function(){
         console.log(req);
     }).on('progress',function(e){
         console.log(e);
+    }).on('complete',function(res){
+         console.log(res.data);
     });
 });
 
