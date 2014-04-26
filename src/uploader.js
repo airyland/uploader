@@ -60,9 +60,9 @@ define(function (require, exports, module) {
         req.onerror = this.onerror.bind(this);
         req.upload.onprogress = this.onprogress.bind(this);
         req.onreadystatechange = function () {
-            if (4 == req.readyState) {
+            if (4 === req.readyState) {
                 var type = req.status / 100 | 0;
-                if (2 == type) return fn(null, req);
+                if (2 === type) return fn(null, req);
                 var err = new Error(req.statusText + ': ' + req.response);
                 err.status = req.status;
                 fn(err);
